@@ -1,5 +1,5 @@
 
-def battery_is_ok(temperature, soc, charge_rate);
+def battery_is_ok(temperature, soc, charge_rate):
  return(tempcheck(temperature) and soccheck(soc) and charge_ratecheck(charge_rate))
 
 def tempcheck(temperature):
